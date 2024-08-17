@@ -2,7 +2,9 @@ import React from 'react';
 
 function Muhsin(props) {
     return (
-        <div></div>
+        <div className=" w-full h-screen">
+
+        </div>
     );
 }
 
