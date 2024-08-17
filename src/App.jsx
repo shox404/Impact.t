@@ -1,3 +1,9 @@
+import Router from "./router";
+
 export default function App() {
-  return <main>App</main>;
+  return (
+    <main>
+      <Router />
+    </main>
+  );
 }
