@@ -1,0 +1,16 @@
+nav {
+    font-family: "Inter", sans-serif;
+
+    ul {
+        align-items: baseline;
+
+        li {
+            cursor: pointer;
+
+            &:hover {
+                transition: 1s;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

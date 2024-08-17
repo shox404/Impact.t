@@ -4,7 +4,7 @@ import "./styles.scss";
 export default function Home() {
   return (
     <div className="home">
-      <Navbar color={"black"} />
+      <Navbar color={"white"} />
     </div>
   );
 }
