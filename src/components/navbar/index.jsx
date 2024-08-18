@@ -1,7 +1,8 @@
 import logoWhite from "../../assets/materials/logo-white.png";
 import logoBlack from "../../assets/materials/logo-black.png";
+import { Link } from "react-router-dom";
 import "./styles.scss";
-import {Link } from "react-router-dom";
+
 export default function Navbar({ color }) {
   return (
     <nav
@@ -31,6 +32,7 @@ export default function Navbar({ color }) {
         </select>
         <li className="text-nowrap">BOOKING SPACE</li>
       </ul>
+      {/* <button>menu</button> */}
     </nav>
   );
 }
