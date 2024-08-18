@@ -8,13 +8,13 @@ export default function Index() {
             <h1 className='text-[90px] text-[#2D2D2D] w-10/12 leading-none m-auto text-center'>Impact Studio coworking
                 space and Art Gallery </h1>
             <div className='flex items-end justify-center gap-5 h-auto pt-20'>
-                <img src={require('../../assets/AboutStudio.png')} alt="" />
-                <img src={require('../../assets/AboutStudio2.png')} alt="" />
+                <img src={require('./assets/AboutStudio.png')} alt="" />
+                <img src={require('./assets/AboutStudio2.png')} alt="" />
                 <div>
-                    <img className='my-8' src={require('../../assets/AboutStudio3.png')} alt="" />
-                    <img src={require('../../assets/AboutStudio4.png')} alt="" />
+                    <img className='my-8' src={require('./assets/AboutStudio3.png')} alt="" />
+                    <img src={require('./assets/AboutStudio4.png')} alt="" />
                 </div>
-                <img src={require('../../assets/AboutStudio5.png')} alt="" />
+                <img src={require('./assets/AboutStudio5.png')} alt="" />
             </div>
             <div className='pt-24 px-12'>
                 <h1 className='text-6xl leading-tight text-[#2D2D2D]  text-pretty'> <span className='pl-14'>Our</span> new creative space - Impact.t Studio!
@@ -30,19 +30,19 @@ export default function Index() {
                 </h4>
                 <div className='flex justify-center items-start gap-5 pt-20'>
                     <div>
-                        <img src={require('../../assets/AboutStudio6.png')} alt="" />
+                        <img src={require('./assets/AboutStudio6.png')} alt="" />
                         <h5 className='pt-3 text-[#2D2D2D]'>Events</h5>
                     </div>
                     <div>
-                        <img src={require('../../assets/AboutStudio7.png')} alt="" />
+                        <img src={require('./assets/AboutStudio7.png')} alt="" />
                         <h5 className='pt-3 text-[#2D2D2D]'>Smart offices</h5>
                     </div>
                     <div>
-                        <img src={require('../../assets/AboutStudio8.png')} alt="" />
+                        <img src={require('./assets/AboutStudio8.png')} alt="" />
                         <h5 className='pt-3 text-[#2D2D2D]'>Art Gallery</h5>
                     </div>
                     <div>
-                        <img src={require('../../assets/AboutStudio9.png')} alt="" />
+                        <img src={require('./assets/AboutStudio9.png')} alt="" />
                         <h5 className='pt-3 text-[#2D2D2D]'>Terrace</h5>
                     </div>
                 </div>
