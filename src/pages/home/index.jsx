@@ -1,5 +1,5 @@
 import Navbar from "../../components/navbar";
-import { CaretRightFilled } from "@ant-design/icons";
+import { ArrowRightOutlined, CaretRightFilled } from "@ant-design/icons";
 import "./styles.scss";
 
 export default function Home() {
@@ -102,7 +102,113 @@ export default function Home() {
         </div>
       </div>
       <div className="rounded-t-3xl p-14 -mt-6 bg-white">
-        <h1>Our Spaces</h1>
+        <h1 className="text-2xl">Our Spaces</h1>
+        <div className="mt-10 flex gap-9">
+          <div className="card w-1/3 bg-no-repeat bg-cover relative">
+            <img
+              src={require("../../assets/images/home/img-5.png")}
+              className="object-cover w-full"
+            />
+            <div className="items w-full absolute top-0 p-7 text-white flex flex-col justify-between h-full">
+              <div className="flex justify-end">
+                <button className="bg-white text-black rounded-full py-2 px-5 text-sm">
+                  Seat in open landscape
+                </button>
+              </div>
+              <div className="flex justify-between items-end">
+                <div>
+                  <h1>Open space</h1>
+                  <p>Starting 70 000 uzs / day</p>
+                </div>
+                <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center">
+                  <ArrowRightOutlined className="text-black scale-125" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card w-1/3 bg-no-repeat bg-cover relative">
+            <img
+              src={require("../../assets/images/home/img-6.png")}
+              className="object-cover w-full"
+            />
+            <div className="items w-full absolute top-0 p-7 text-white flex flex-col justify-between h-full">
+              <div className="flex justify-end">
+                <button className="bg-white text-black rounded-full py-2 px-5 text-sm">
+                  Capacity 8 people
+                </button>
+              </div>
+              <div className="flex justify-between items-end">
+                <div>
+                  <h1>Meeting Rooms</h1>
+                  <p>Starting 100 000 uzs / hourse</p>
+                </div>
+                <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center">
+                  <ArrowRightOutlined className="text-black scale-125" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card w-1/3 bg-no-repeat bg-cover relative">
+            <img
+              src={require("../../assets/images/home/img-7.png")}
+              className="object-cover w-full"
+            />
+            <div className="items w-full absolute top-0 p-7 text-white flex flex-col justify-between h-full">
+              <div className="flex justify-end">
+                <button className="bg-white text-black rounded-full py-2 px-5 text-sm">
+                  Large teams 15-20 people
+                </button>
+              </div>
+              <div className="flex justify-between items-end">
+                <div>
+                  <h1>Offices</h1>
+                  <p>Starting 5 000 000 uzs / month</p>
+                </div>
+                <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center">
+                  <ArrowRightOutlined className="text-black scale-125" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between my-14">
+          <h1 className="text-2xl">Our Advantages</h1>
+          <div className="w-3/5">
+            <h1 className="text-[#8D8D8D]">Coworking = Networking</h1>
+            <div className="flex my-6">
+              <p className="w-1/2">
+                Discover the Advantages of choosing <br /> our co-working space
+              </p>
+              <p className="w-1/2">
+                Why choose us? your path to <br /> success starts here
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 text-white">
+              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+                Flexible Schedule and Conditions
+              </div>
+              <div className="p-10 rounded-2xl bg-[#FF5722] flex">
+                <div className="flex flex-col gap-6">
+                  <h1>Extensive Networking</h1>
+                  <p>Our community represents a wide range of professionals from various fields. Here, you can easily expand your professional connections and find new partners or clients.</p>
+                </div>
+                <img src={require("../../assets/images/home/img-8.png")} />
+              </div>
+              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+                Conveniences and Comfort
+              </div>
+              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+                Interesting Events
+              </div>
+              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+                Continuous Support
+              </div>
+              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+                Unique Atmosphere
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
