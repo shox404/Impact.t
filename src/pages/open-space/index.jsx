@@ -3,10 +3,11 @@ import Bg from "../open-space/IMG_5010.png";
 import Chek from "../open-space/Group 54.png";
 import Chek1 from "../open-space/Group 57.png";
 import Grn from"../open-space/Group 73.png";
+import  Footer from"../../components/footer/index"
 import Nav from"../../components/navbar/index"
 function Index(props) {
     return (
-        <div className="w-full h-screen">
+        <div className="w-full h-auto ">
             <Nav/>
             <div className="w-full h-screen bg-black sm:justify-center sm:items-center sm:h-[80%] sm:text-center bg-cover bg-center" style={{backgroundImage: `url(${Bg})`}}>
                 <h2 className=" sm:text-[30px]  sm:pt-[180px]  sm:w-[270px]  sm:leading-[40px] text-white text-[100px] w-[935px] pt-[320px] ml-10 leading-[100px]">
@@ -136,7 +137,9 @@ function Index(props) {
                         ALL
                     </button>
                 </div>
+
             </div>
+
         </div>
     );
 }
