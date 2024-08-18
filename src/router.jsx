@@ -4,7 +4,7 @@ export default function Router() {
   return (
     <Routes>
       <Route path="/" element={null} />
-      <Route path="/about-studio" element={<AboutStudio/>}/>
+      <Route path="/" element={<AboutStudio/>}/>
     </Routes>
   );
 }
