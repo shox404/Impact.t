@@ -4,9 +4,8 @@ import Index from "./pages/open-space";
 export default function Router() {
   return (
     <Routes>
-      {/*<Route path="/" element={null} />*/}
-      <Route path="/" element={<Index /> } />
-
+      <Route path="/" element={<Home />} />
+      <Route path="/open-space" element={<Index />} />
     </Routes>
   );
 }
