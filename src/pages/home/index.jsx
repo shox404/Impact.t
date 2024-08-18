@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </div>
       <div className="rounded-t-3xl p-14 -mt-6 bg-white">
-
+        <h1>Our Spaces</h1>
       </div>
     </div>
   );
