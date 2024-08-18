@@ -5,7 +5,7 @@ import "./styles.scss";
 export default function Navbar({ color }) {
   return (
     <nav
-      className={`w-full sticky top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal ${
+      className={`w-full fixed top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal ${
         color == "black" ? "text-black" : "text-white"
       }`}
     >
@@ -19,9 +19,13 @@ export default function Navbar({ color }) {
       <ul className="flex gap-9 justify-end align-baseline">
         <li>NEWS</li>
         <li>CONTACTS</li>
-        <select value={"EN"}>
-          <option>EN</option>
-          <option>RU</option>
+        <select value={"EN"} className="bg-transparent outline-none">
+          <option className={color !== "black" ? "text-black" : "text-white"}>
+            EN
+          </option>
+          <option className={color !== "black" ? "text-black" : "text-white"}>
+            RU
+          </option>
         </select>
         <li className="text-nowrap">BOOKING SPACE</li>
       </ul>
