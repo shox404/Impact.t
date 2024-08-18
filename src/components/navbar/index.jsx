@@ -2,16 +2,19 @@ import logoWhite from "../../assets/materials/logo-white.png";
 import logoBlack from "../../assets/materials/logo-black.png";
 import "./styles.scss";
 
+
 export default function Navbar({ color }) {
   return (
-    <nav
+    <nav 
       className={`w-full sticky top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal ${
         color == "black" ? "text-black" : "text-white"
       }`}
     >
       <ul className="flex gap-9">
         <li>GALLERY</li>
+      
         <li>OFFICE</li>
+        
         <li className="text-nowrap">OPEN SPACE</li>
         <li className="text-nowrap">MEETING ROOMS</li>
       </ul>

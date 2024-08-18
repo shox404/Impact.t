@@ -2,7 +2,8 @@ import React from 'react';
 import Bg from "../open-space/IMG_5010.png";
 import Chek from "../open-space/Group 54.png";
 import Chek1 from "../open-space/Group 57.png";
-import Grn from"../open-space/Group 73.png";
+import Grn from "../open-space/Group 73.png"
+
 function Index(props) {
     return (
         <div className="w-full h-screen">
@@ -110,14 +111,14 @@ function Index(props) {
 
 
 
-            <div className={"w-full h-screen flex justify-center items-center  bg-[#EBEBEB]"} style={{ backgroundImage: `url(${Grn})` }}>
-                {/*<img className={"w-[90%]"} src={Green} alt=""/>*/}
-                <div>
-                    <button className={"w-[180px]    text-[15px] h-[50px] bg-white rounded-[90px] text-[#2D2D2D]"}>GALLERY</button>
+            <div className={"w-full h-screen flex justify-center items-center relative  bg-[#EBEBEB]"}style={{ backgroundImage: `url(${Grn})` }}>
+                <img className={"w-[90%] absolute z-10"} src={Grn} alt=""/>
+                <div className="absolute z-20 ml-[-600px]"> 
+                    <button className={"w-[180px] mb-72    text-[15px] h-[50px] bg-white rounded-[90px] text-[#2D2D2D]"}>GALLERY</button>
 <h2 className={"text-[48px] text-white"}>See all our points!</h2>
                     <h3 className={"w-[602px] text-white text-[24px]"}>Discover all our points and take advantage of the amazing benefits and rewards available to you today!</h3>
                 </div>
-                <div>
+                <div className="absolute z-20 ml-[500px] mt-[290px]">
                     <button className={"w-[180px] h-[50px] text-[15px] text-[#FF5722]  rounded-[90px] bg-white mt-[130px] ml-[500px]"}>VIEW ALL</button>
                 </div>
             </div>
