@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Muhsin(props) {
+function Index(props) {
     return (
         <div></div>
     );
 }
 
-export default Muhsin;
+export default Index;
