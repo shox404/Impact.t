@@ -6,7 +6,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="bg-[#1C1C1C]  rounded-t-3xl -mt-6 p-10 ">
+    <div className="bg-[#1C1C1C] rounded-t-3xl -mt-6 p-10">
       <ul className="flex gap-9 text-[#B4B4B4] justify-center">
         <li>GALLERY</li>
         <li>OFFICE</li>
