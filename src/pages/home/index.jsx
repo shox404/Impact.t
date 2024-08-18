@@ -11,7 +11,7 @@ import { Avatar } from "antd";
 export default function Home() {
   return (
     <div>
-      <Navbar color={"#EBEBEB"} />
+      <Navbar color={"white"} />
       <div className="bg-[#1C1C1C]">
         <h1 className="bg-gradient-to-r from-[#F9F9F9] to-[#939393] bg-clip-text text-transparent text-center w-3/4 text-8xl m-auto py-44 px-20">
           The place for people with global ambitions
@@ -352,15 +352,13 @@ export default function Home() {
                   <ArrowRightOutlined className="text-black scale-125" />
                 </div>
               </div>
-              <h1 className="my-5">
-                How to hire the right product manager for your company
-              </h1>
+              <h1 className="my-5">Welcome to Impact Studio</h1>
               <div className="flex items-center gap-2">
                 <p className="text-[#FF5722] flex gap-2 items-center">
                   <img src={require("../../assets/images/home/vector-2.png")} />
-                  Event
+                  News
                 </p>
-                <p className="text-[#2D2D2D]">| June 18, 2024 • 19:00</p>
+                <p className="text-[#2D2D2D]">| June 15, 2024 • Read 12 min</p>
               </div>
             </div>
             <div className="card w-1/3 bg-no-repeat bg-cover relative">
@@ -373,15 +371,13 @@ export default function Home() {
                   <ArrowRightOutlined className="text-black scale-125" />
                 </div>
               </div>
-              <h1 className="my-5">
-                How to hire the right product manager for your company
-              </h1>
+              <h1 className="my-5">Impact.t hub: social innovation hub</h1>
               <div className="flex items-center gap-2">
                 <p className="text-[#FF5722] flex gap-2 items-center">
                   <img src={require("../../assets/images/home/vector-1.png")} />
-                  Event
+                  Blog
                 </p>
-                <p className="text-[#2D2D2D]">| June 18, 2024 • 19:00</p>
+                <p className="text-[#2D2D2D]">| May 2 8, 2024 • Read 7 min</p>
               </div>
             </div>
           </div>
