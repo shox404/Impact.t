@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from './../../components/navbar/index';
+import Footer from '../../components/footer';
 
 export default function Index() {
     return (
         <div className='w-full h-auto bg-[#EDEDED]'>
-            <h4 className='text-xl text-[#2D2D2D] text-center pt-36 my-10'>Elevate Your Work Environment</h4>
+            <Navbar />
+            <h4 className='text-xl text-[#2D2D2D] text-center pt-36 py-10'>Elevate Your Work Environment</h4>
             <h1 className='text-[90px] text-[#2D2D2D] w-10/12 leading-none m-auto text-center'>Impact Studio coworking
                 space and Art Gallery </h1>
             <div className='flex items-end justify-center gap-5 h-auto pt-20'>
@@ -53,7 +56,7 @@ export default function Index() {
                         <button className='w-36 h-10 bg-white rounded-full'>
                             GALLERY
                         </button></Link>
-                    <div className='pt-52 w-full flex items-end'>
+                    <div className='pt-52 w-full flex justify-between items-end'>
                         <div >
                             <h3 className='text-3xl text-white'>See all our points!</h3>
                             <h4 className='text-2xl font-light w-7/12 pt-5 text-white'>Discover all our points and take advantage of the amazing benefits and rewards available to you today!</h4>
@@ -65,7 +68,7 @@ export default function Index() {
                                 </button></Link>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
             <div className='w-full py-24 px-12 flex gap-5 '>
                 <img src={require('./assets/AboutStudio12.png')} alt="" />
@@ -75,7 +78,6 @@ export default function Index() {
                     <h5 className='text-xl text-[#969696] font-[400]'>CEO and Founder Impact.t</h5>
                 </div>
             </div>
-
         </div>
     )
 }
