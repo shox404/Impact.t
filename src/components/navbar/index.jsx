@@ -5,7 +5,7 @@ import "./styles.scss";
 export default function Navbar({ color }) {
   return (
     <nav
-      className={`w-full fixed top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal ${
+      className={`w-full fixed top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal z-50 ${
         color == "black" ? "text-black" : "text-white"
       }`}
     >

@@ -7,7 +7,11 @@ module.exports = {
       md: { max: "767px" },
       sm: { max: "639px" },
     },
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'backgroundImageAboutStudio':"url('/src/pages/AboutStudio/assets/AboutStudio10.png')",
+      }
+    },
   },
   plugins: [],
 };
