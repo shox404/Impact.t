@@ -64,7 +64,16 @@ export default function Index() {
                                     VIEW ALL
                                 </button></Link>
                         </div>
-                    </div>                </div>
+                    </div>
+                    </div>
+            </div>
+            <div className='w-full py-24 px-12 flex gap-5 '>
+                <img src={require('./assets/AboutStudio12.png')} alt="" />
+                <div className='w-auto h-auto bg-[#2D2D2D] px-10 pr-24 py-10 rounded-3xl'>
+                    <h5 className='text-white pt-24 text-xl'>With its focus on social innovation and community empowerment, this coworking space is a breeding ground for impactful ideas.</h5>
+                    <h5 className='text-xl text-white font-light leading-relaxed pt-24'>Akmal Paiziev</h5>
+                    <h5 className='text-xl text-[#969696] font-[400]'>CEO and Founder Impact.t</h5>
+                </div>
             </div>
 
         </div>
