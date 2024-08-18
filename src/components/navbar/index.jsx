@@ -1,7 +1,7 @@
 import logoWhite from "../../assets/materials/logo-white.png";
 import logoBlack from "../../assets/materials/logo-black.png";
 import "./styles.scss";
-
+import {Link } from "react-router-dom";
 export default function Navbar({ color }) {
   return (
     <nav
@@ -12,7 +12,9 @@ export default function Navbar({ color }) {
       <ul className="flex gap-9">
         <li>GALLERY</li>
         <li>OFFICE</li>
-        <li className="text-nowrap">OPEN SPACE</li>
+        <Link to={"/open-space"}>
+          <li className="text-nowrap">OPEN SPACE</li>
+        </Link>
         <li className="text-nowrap">MEETING ROOMS</li>
       </ul>
       <img src={color == "black" ? logoBlack : logoWhite} className="m-auto" />
