@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./styles.scss";
 
-
 export default function Navbar({ color }) {
   const [state, setState] = useState(false);
   const [top, setTop] = useState(0);
@@ -22,28 +21,27 @@ export default function Navbar({ color }) {
   const toggle = () => setState(!state);
 
   return (
-    <nav 
-      className={`w-full fixed top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal z-50 transition-all md:grid-cols-1 md:p-14 ${
-        top > 100 ? (color == "black" ? "bg-white" : "bg-black") : ""
-      } ${
-        color == "black" ? "text-black md:bg-white" : "text-white md:bg-black"
-      } ${state ? 0 : "top-[-100%]"}`}
+    <nav
+      className={`w-full fixed top-0 grid grid-cols-3 px-14 py-8 align-baseline text-xs font-normal z-50 transition-all md:grid-cols-1 md:p-14 ${top > 100 ? (color == "black" ? "bg-white" : "bg-black") : ""
+        } ${color == "black" ? "text-black md:bg-white" : "text-white md:bg-black"
+        } ${state ? 0 : "top-[-100%]"}`}
     >
       <ul className="flex gap-9 md:flex-wrap md:justify-center">
         <li>GALLERY</li>
-      
-        <Link to={"/about"}>
-        <li>OFFICE</li>
+        <Link to={'/about-studio'}>
+          <li>OFFICE</li>
         </Link>
         <Link to={"/open-space"}>
           <li className="text-nowrap">OPEN SPACE</li>
         </Link>
         <li className="text-nowrap">MEETING ROOMS</li>
       </ul>
-      <img
-        src={color == "black" ? logoBlack : logoWhite}
-        className="m-auto md:my-10"
-      />
+      <Link to={"/"}>
+        <img
+          src={color == "black" ? logoBlack : logoWhite}
+          className="m-auto md:my-10"
+        />
+      </Link>
       <ul className="flex gap-9 justify-end align-baseline md:flex-wrap md:justify-center">
         <li>NEWS</li>
         <li>CONTACTS</li>
