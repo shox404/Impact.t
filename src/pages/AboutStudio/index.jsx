@@ -50,7 +50,7 @@ export default function Index() {
                 </div>
             </div>
             <div className='w-full pt-24 px-12'>
-                <div className='rounded-[40px] bg-[#FF5722] bg-backgroundImageAboutStudio bg-no-repeat bg-cover px-20 lg:px-10 lg:py-10 py-16 h-auto w-full sm:text-center'>
+                <div className='rounded-[30px] bg-backgroundImageAboutStudio bg-no-repeat bg-cover px-20 lg:px-10 lg:py-10 py-16 h-auto w-full sm:text-center'>
                     <Link to={'/gallery'}>
                         <button className='w-36 h-10 bg-white rounded-full'>
                             GALLERY
