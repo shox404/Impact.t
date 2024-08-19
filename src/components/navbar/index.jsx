@@ -36,10 +36,12 @@ export default function Navbar({ color }) {
         </Link>
         <li className="text-nowrap">MEETING ROOMS</li>
       </ul>
-      <img
-        src={color == "black" ? logoBlack : logoWhite}
-        className="m-auto md:my-10"
-      />
+      <Link to={"/"}>
+        <img
+            src={color == "black" ? logoBlack : logoWhite}
+            className="m-auto md:my-10"
+        />
+      </Link>
       <ul className="flex gap-9 justify-end align-baseline md:flex-wrap md:justify-center">
         <li>NEWS</li>
         <li>CONTACTS</li>
