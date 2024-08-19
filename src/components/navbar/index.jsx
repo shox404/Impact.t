@@ -19,7 +19,9 @@ export default function Navbar({ color }) {
       </ul>
       <img src={color == "black" ? logoBlack : logoWhite} className="m-auto" />
       <ul className="flex gap-9 justify-end align-baseline">
-        <li>NEWS</li>
+        <Link to={"/news"}>
+          <li>NEWS</li>
+        </Link>
         <li>CONTACTS</li>
         <select value={"EN"} className="bg-transparent outline-none">
           <option className={color !== "black" ? "text-black" : "text-white"}>
