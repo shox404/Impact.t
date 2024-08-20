@@ -11,7 +11,7 @@ export default function Index() {
                     highlights we have 
                     to offer!</h1>
             </div>
-            <div className='w-full h-auto flex sm:flex-wrap lg:flex-wrap lg:pt-14 sm:gap-2 sm:pt-5 items-center px-14 sm:px-5 gap-5 py-16 sm:py-5 pt-40 '>
+            <div className='w-full h-auto flex sm:flex-wrap lg:flex-wrap xl:flex-wragitp lg:pt-14 sm:gap-2 sm:pt-5 items-center px-14 sm:px-5 gap-5 py-16 sm:py-5 pt-40 '>
                 <Link to={'/'}><button className='w-auto px-12 sm:px-7 sm:py-3 h-auto py-4 rounded-full bg-[#DFDFDF] text-[#2D2D2D] hover:bg-[#FF5722] hover:text-white'>All</button>
                 </Link>
                 <Link to={'/open-space'}><button className='w-auto px-12 sm:px-7 sm:py-3 h-auto py-4 rounded-full bg-[#DFDFDF] text-[#2D2D2D] hover:bg-[#FF5722] hover:text-white'>Open space</button>
