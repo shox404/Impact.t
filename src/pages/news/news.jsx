@@ -223,7 +223,6 @@ function News(props) {
 
             </div>
 
-            <Footer/>
         </div>
     );
 }

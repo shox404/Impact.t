@@ -1,13 +1,10 @@
 import { Routes, Route } from "react-router-dom"; 
 import Index from "./pages/open-space"; 
 import Home from "./pages/home"; 
-
-
-import About from "./pages/about";
-
 import AboutStudio from "./pages/AboutStudio"; 
-
- 
+import Gallery from './pages/Gallery/Index'
+import News from "./pages/news/news";
+import About from "./pages/about";
 export default function Router() { 
   return ( 
     <Routes> 
@@ -16,7 +13,10 @@ export default function Router() {
       <Route path="/open-space" element={<Index />} /> 
       <Route path="/About" element={<About/>}/> 
       <Route path="/about-studio" element={<AboutStudio />} /> 
-    </Routes> 
+      <Route path="/gallery" element={<Gallery/>}/>
+      <Route path="/new" element={<News/>}/>
+      <Route path="/about" element={<About/>}/>
+    </Routes>
   ); 
 }
 

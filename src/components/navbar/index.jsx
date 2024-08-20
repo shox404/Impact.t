@@ -27,7 +27,9 @@ export default function Navbar({ color }) {
         } ${state ? 0 : "top-[-100%]"}`}
     >
       <ul className="flex gap-9 md:flex-wrap md:justify-center">
-        <li>GALLERY</li>
+      <Link to={'/gallery'}>
+      <li>GALLERY</li>
+        </Link>
         <Link to={'/about-studio'}>
           <li>OFFICE</li>
         </Link>
@@ -43,7 +45,10 @@ export default function Navbar({ color }) {
         />
       </Link>
       <ul className="flex gap-9 justify-end align-baseline md:flex-wrap md:justify-center">
-        <li>NEWS</li>
+        <Link to={'/new'}>
+          <li>NEWS</li>
+
+        </Link>
         <li>CONTACTS</li>
         <select value={"EN"} className="bg-transparent outline-none">
           <option className={color !== "black" ? "text-black" : "text-white"}>

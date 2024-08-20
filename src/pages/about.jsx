@@ -79,15 +79,15 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="w-full h-[800px] bg-[#EDEDED] flex flex-col sm:h-auto  p-10 lg:h-auto">
+        <div className="w-full h-[800px]  bg-[#EDEDED] flex flex-col sm:h-auto  p-10 sm:p-0  lg:h-auto">
           <p className="text-[32px] w-[423px] sm:w-full">
             Discover a new way of working at Impact.t hub
           </p>
-          <div className="w-full flex justify-center items-center gap-5 sm:flex-col mt-20">
+          <div className="w-full h-auto sm:h-[2000px] flex justify-center items-center gap-5 sm:flex-col mt-20 sm:mt-0">
             {cards.map((item, index) => (
               <div
                 key={index}
-                className="w-[407px] h-[550px] flex flex-col sm:w-full"
+                className="w-[407px] h-[550px] flex flex-col sm:w-[90%] "
               >
                 <img src={item.img} alt="" />
                 <div className="w-full h-[200px] flex flex-col py-6 px-5 bg-white rounded-b-[20px]">
@@ -118,9 +118,9 @@ const About = () => {
                     <button className={"w-[180px] h-[50px] text-[15px] text-[#FF5722]  rounded-[90px] bg-white mt-[130px] ml-[500px] sm:ml-[-170px] sm:mt-[150px]"}>VIEW ALL</button>
                 </div>
             </div>
-        <div className="w-full h-[600px] sm:h-auto sm:py-8 bg-[#EDEDED] flex justify-center items-center gap-10 px-10 sm:flex-col lg:flex-col lg:h-auto lg:py-10">
+        <div className="w-full h-[600px]  mb-12 sm:mb-0 sm:h-auto sm:py-8 bg-[#EDEDED] flex justify-center items-center gap-10 px-10 sm:flex-col lg:flex-col lg:h-auto lg:py-10">
           <img src={Image} alt="" className="pl-7 sm:pl-0 lg:pl-0"/>
-          <div className="w-auto h-[540px] flex flex-col pt-20 px-5 bg-[#2D2D2D] rounded-[20px] sm:h-[540px] lg:h-[300px]">
+          <div className="w-auto h-[540px] flex flex-col pt-20 px-5 bg-[#2D2D2D] rounded-[20px] sm:h-[540px] lg:pt-5 lg:h-[400px]">
             <p className="text-[24px] text-white">
               With its focus on social innovation and community empowerment,
               this coworking space is a breeding ground for impactful ideas.
