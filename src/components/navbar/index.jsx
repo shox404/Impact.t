@@ -47,9 +47,12 @@ export default function Navbar({ color }) {
       <ul className="flex gap-9 justify-end align-baseline md:flex-wrap md:justify-center">
         <Link to={'/new'}>
           <li>NEWS</li>
-
-        </Link>
+        </Link>        <Link to={'/about'}>
         <li>CONTACTS</li>
+
+      </Link>
+
+        {/*<li>CONTACTS</li>*/}
         <select value={"EN"} className="bg-transparent outline-none">
           <option className={color !== "black" ? "text-black" : "text-white"}>
             EN
