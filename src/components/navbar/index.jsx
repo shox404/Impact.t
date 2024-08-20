@@ -27,7 +27,9 @@ export default function Navbar({ color }) {
         } ${state ? 0 : "top-[-100%]"}`}
     >
       <ul className="flex gap-9 md:flex-wrap md:justify-center">
-        <li>GALLERY</li>
+      <Link to={'/gallery'}>
+      <li>GALLERY</li>
+        </Link>
         <Link to={'/about-studio'}>
           <li>OFFICE</li>
         </Link>

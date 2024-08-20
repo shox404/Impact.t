@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'backgroundImageAboutStudio':"url('/src/pages/AboutStudio/assets/AboutStudio10.png')",
+        'backgroundImageGallery':"url('/src/pages/Gallery/assets/Gallery1.jpg')",
       }
     },
   },
