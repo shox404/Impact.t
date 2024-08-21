@@ -12,10 +12,10 @@ function Index(props) {
             <div
                 className="w-full h-screen bg-black   sm:justify-center sm:items-center sm:h-[80%] sm:text-center  bg-cover bg-center"
                 style={{backgroundImage: `url(${Bg})`}}>
-                <h2 className=" lg:text-[70px] lg:w-[80%] sm:text-[30px]  sm:pt-[180px]  sm:w-[270px]  sm:leading-[40px] text-white text-[100px] w-[935px] pt-[320px] ml-14 leading-[100px]">
+                <h2 data-aos='fade-left' data-aos-duration='1000' className=" lg:text-[70px] lg:w-[80%] sm:text-[30px]  sm:pt-[180px]  sm:w-[270px]  sm:leading-[40px] text-white text-[100px] w-[935px] pt-[320px] ml-14 leading-[100px]">
                     Your Co-Working Journey starts here
                 </h2>
-                <button
+                <button data-aos='fade-left' data-aos-delay='200'
                     className={"w-[180px] mt-20 ml-[50px] sm:w-[160px] sm:text-[13px]  sm:h-[45px]  sm:ml-[-20px] sm:mt-[50px]    text-[15px] h-[50px] bg-white rounded-[90px] text-[#2D2D2D]  sm:mb-64"}>BOOKING
                     SPACE
                 </button>
@@ -24,11 +24,11 @@ function Index(props) {
 
             <div className="flex w-full h-auto pb-20 gap-80 pt-32 bg-[#EBEBEB] sm:flex-col lg:flex-col">
                 <div className="ml-32 sm:ml-[30px]">
-                    <h3 className="text-[32px] text-[#2D2D2D] lg:ml-[85px]">Membership</h3>
+                    <h3 data-aos='fade-right' className="text-[32px] text-[#2D2D2D] lg:ml-[85px]">Membership</h3>
                 </div>
                 <div className={"sm:mt-[-280px] sm:ml-[30px] lg:ml-[210px]"}>
-                    <h2 className="text-[#8D8D8D] text-[32px] lg:mt-[-280px]">120+ Places</h2>
-                    <p className="text-[20px] sm:w-[80%] text-[#2D2D2D] w-[390px] mt-8 ">
+                    <h2 data-aos='fade-down' className="text-[#8D8D8D] text-[32px] lg:mt-[-280px]">120+ Places</h2>
+                    <p data-aos='zoom-out' className="text-[20px] sm:w-[80%] text-[#2D2D2D] w-[390px] mt-8 ">
                         Our co-working environment is more than just shared desks. It's a community-driven ecosystem
                         designed to elevate your work experience
                     </p>
@@ -37,7 +37,7 @@ function Index(props) {
 
 
             <div className={"flex w-full h-auto justify-center items-center gap-10 bg-[#EBEBEB] sm:flex-wrap lg:flex-wrap"}>
-                <div className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#FFFFFF] border rounded-[20px] flex flex-col  p-8">
+                <div data-aos='fade-up' className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#FFFFFF] border rounded-[20px] flex flex-col  p-8">
                     <h3 className=" text-[#2D2D2D] mt-4 text-[28px]">Day Plan</h3>
                     <h2 className="text-[48px] text-[#2D2D2D] mt-1 sm:text-[28px]">70 000 uzs<span
                         className="text-[#797979] text-[20px] sm:text-[18px]">/Day </span></h2>
@@ -62,8 +62,8 @@ function Index(props) {
                         className="   sm:w-[90%] w-[347px] mt-[130px]  ml-3 h-[60px] bg-[#373737] rounded-[90px] text-white text-[19px]  ">
                         Booking space
                     </button>
-                < /div>
-                <div className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#D1D1D1] border rounded-[20px] flex flex-col  p-8">
+                </div>
+                <div data-aos='fade-up' data-aos-delay='300' className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#D1D1D1] border rounded-[20px] flex flex-col  p-8">
                     <h3 className=" text-[#2D2D2D] mt-4 text-[28px]">Flex Plan</h3>
                     <h2 className="text-[48px] text-[#2D2D2D] mt-1 sm:text-[28px]">1,7 mln uzs<span
                         className="text-[#797979] text-[20px] sm:text-[18px]">/Month </span></h2>
@@ -90,10 +90,8 @@ function Index(props) {
                         className="   sm:w-[90%] w-[347px] mt-[95px]  ml-3 h-[60px] bg-[#373737] rounded-[90px] text-white  text-[19px]  ">
                         Booking space
                     </button>
-                < /div>
-
-
-                <div className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#2D2D2D] border rounded-[20px] flex flex-col  p-8">
+                </div>
+                <div data-aos='fade-up' data-aos-delay='600' className="w-[440px] sm:w-[90%] sm:h-auto h-[585px] bg-[#2D2D2D] border rounded-[20px] flex flex-col  p-8">
                     <h3 className=" text-[#FFFFFF] mt-4 text-[28px]">Fix Plan</h3>
                     <h2 className="text-[48px] text-[#FFFFFF] mt-1 sm:text-[28px]">2,2 mln uzs <span
                         className="text-[#797979] text-[18px]">/Month</span></h2>
@@ -123,12 +121,9 @@ function Index(props) {
                         Booking space
                     </button>
                 </div>
-
             </div>
-
-
-            <div className={"w-full h-screen flex justify-center items-center relative  bg-[#EBEBEB]"} style={{backgroundImage: ` url(${Grn})`}}>
-                <img className={"w-[90%] absolute z-10 sm:w-full sm:h-[600px] lg:h-[600px]"} src={Grn} alt=""/>
+            <div  className={"w-full h-screen flex justify-center items-center relative  bg-[#EBEBEB]"} style={{backgroundImage: ` url(${Grn})`}}>
+                <img data-aos='fade-up' className={"w-[90%] absolute z-10 sm:w-full sm:h-[600px] lg:h-[600px]"} src={Grn} alt=""/>
                 <div className="absolute z-20 ml-[-600px] sm:ml-0 lg:ml-[-40px]">
                     <button
                         className={"w-[180px] mb-72  ml-10  text-[15px] h-[50px] sm:ml-5 sm:mb-10 lg:ml-[-40px] bg-white rounded-[90px] text-[#2D2D2D]"}>GALLERY

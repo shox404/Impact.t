@@ -6,7 +6,7 @@ import Chek2 from "../offece/Vector (3).png";
 import Chek3 from "../offece/2.png";
 import Pl from "../meetings rooms/Rectangle 81.png";
 import Conference from "../offece/IMG_4982.png";
-import Conference1 from "../offece/IMG_5008.png";
+import Conference1 from "../offece/IMG_5008.jpg";
 import Conference2 from "../offece/IMG_4827.png";
 import Grn from "../open-space/Group 73.png";
 

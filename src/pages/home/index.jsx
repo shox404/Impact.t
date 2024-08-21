@@ -13,21 +13,21 @@ export default function Home() {
     <div>
       <Navbar color={"white"} />
       <div className="bg-[#1C1C1C]">
-        <h1 className="bg-gradient-to-r from-[#F9F9F9] to-[#939393] bg-clip-text text-transparent text-center w-3/4 text-8xl m-auto py-44 px-20 md:text-5xl md:w-full md:px-10">
+        <h1 data-aos='fade-down' className="bg-gradient-to-r from-[#F9F9F9] to-[#939393] bg-clip-text text-transparent text-center w-3/4 text-8xl m-auto py-44 px-20 md:text-5xl md:w-full md:px-10">
           The place for people with global ambitions
         </h1>
         <hr className="w-[92%] m-auto" />
         <div className="grid grid-cols-3 text-[#EBEBEB] px-14 pt-10 pb-20 gap-6 md:grid-cols-1">
-          <p className="md:text-center">
+          <p data-aos='fade-up' className="md:text-center">
             The largest coworking <br /> center in Uzbekistan
           </p>
-          <p className="flex items-center gap-3 m-auto">
+          <p data-aos='fade-up' data-aos-delay="200" className="flex items-center gap-3 m-auto">
             Play the video
             <div className="h-10 w-10 bg-[#EBEBEB] rounded-full flex items-center justify-center">
               <CaretRightFilled className="text-black scale-125" />
             </div>
           </p>
-          <div className="flex justify-end md:justify-center">
+          <div data-aos='fade-up' data-aos-delay="300" className="flex justify-end md:justify-center">
             <button className="h-12 bg-[#FF5A26] w-[170px] rounded-full">
               OUR SPACES
             </button>
@@ -35,36 +35,36 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-[#EBEBEB] p-14 rounded-t-3xl grid grid-cols-2 -mt-6 md:grid-cols-1 md:p-5">
-        <p className="pb-28">
+        <p data-aos='fade-down' className="pb-28">
           IMPACT.T is a technological hub <br /> for people who build the
           companies <br />
           of the future.
         </p>
         <div className="text-lg flex flex-col gap-8 pb-28 w-full">
-          <h1>
+          <h1 data-aos='fade-right' data-aos-duration='1000' data-aos-delay='200'>
             <span className="pl-12">
               A place where a community is born, where
             </span>
             people help each other create useful companies and products, and
             also exchange experiences and knowledge, making new acquaintances.
           </h1>
-          <h1>
+          <h1 data-aos='fade-right' data-aos-duration='1000' data-aos-delay='300'>
             Discover a vibrant coworking community designed for productivity,
             collaboration, and success!
           </h1>
         </div>
-        <img
+        <img data-aos='fade-left' data-aos-duration='1000'
           src={require("../../assets/images/home/img-1.png")}
           className="md:w-full"
         />
-        <img
+        <img data-aos='fade-right' data-aos-duration='1000' data-aos-delay-='1000'
           src={require("../../assets/images/home/img-2.png")}
           className="w-full md:mt-8"
         />
       </div>
       <div className="rounded-t-3xl p-14 bg-[#2D2D2D] flex justify-between gap-14 text-[#EBEBEB] md:flex-wrap md:p-5">
         <div className="card w-1/2 md:w-full">
-          <img
+          <img  data-aos='zoom-out'
             src={require("../../assets/images/home/img-3.png")}
             className="rounded-2xl object-cover h-[420px] md:h-[200px]"
           />
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card w-1/2 md:w-full">
-          <img
+          <img data-aos='zoom-out'
             src={require("../../assets/images/home/img-4.png")}
             className="rounded-2xl object-cover h-[420px] md:h-[200px]"
           />
@@ -113,8 +113,8 @@ export default function Home() {
       <div className="rounded-t-3xl p-14 -mt-6 bg-[#EBEBEB] md:p-5">
         <h1 className="text-2xl">Our Spaces</h1>
         <div className="mt-10 flex gap-9 md:flex-wrap">
-          <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
-            <img
+          <div data-aos='fade-up' className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
+            <img 
               src={require("../../assets/images/home/img-5.png")}
               className="object-cover w-full"
             />
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
+          <div data-aos='fade-up'  className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
             <img
               src={require("../../assets/images/home/img-6.png")}
               className="object-cover w-full"
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
+          <div data-aos='fade-up' className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
             <img
               src={require("../../assets/images/home/img-7.png")}
               className="object-cover w-full"
@@ -193,11 +193,11 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-3 text-[#EBEBEB]">
-              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Flexible Schedule and Conditions
               </div>
-              <div className="p-10 rounded-2xl bg-[#FF5722] flex md:flex-wrap gap-8">
-                <div className="flex flex-col gap-6">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#FF5722] flex md:flex-wrap gap-8">
+                <div  className="flex flex-col gap-6">
                   <h1>Extensive Networking</h1>
                   <p>
                     Our community represents a wide range of professionals from
@@ -207,16 +207,16 @@ export default function Home() {
                 </div>
                 <img src={require("../../assets/images/home/img-8.png")} />
               </div>
-              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Conveniences and Comfort
               </div>
-              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Interesting Events
               </div>
-              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Continuous Support
               </div>
-              <div className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Unique Atmosphere
               </div>
             </div>
@@ -240,35 +240,35 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-3 grid-rows-3 gap-5 md:grid-cols-2">
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/kfc.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/payme.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/korzina.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/tbc.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/taxi.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/epam.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/itpark.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/cloud.png")} />
             </div>
-            <div className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
+            <div data-aos='zoom-in' className="bg-[#989898] py-8 px-12 flex items-center justify-center rounded-xl">
               <img src={require("../../assets/images/home/bank.png")} />
             </div>
           </div>
-          <div className="flex justify-end my-8">
+          <div data-aos='fade-left' className="flex justify-end my-8">
             <button className="bg-transparent border px-7 py-3 rounded-full">
               SHOW ALL
             </button>
@@ -277,11 +277,11 @@ export default function Home() {
       </div>
       <div className="rounded-t-3xl p-14 -mt-6 bg-[#EBEBEB] md:p-5">
         <div className="flex justify-between my-14 md:flex-wrap">
-          <h1 className="text-2xl">Reviews</h1>
+          <h1 className="text-2xl" data-aos='fade-right'>Reviews</h1>
           <div className="w-3/5 flex flex-col gap-3 text-[#EBEBEB] md:w-full md:mt-8">
-            <div className="p-10 rounded-2xl bg-white text-black md:p-5">
+            <div data-aos='fade-left' className="p-10 rounded-2xl bg-white text-black md:p-5">
               <div className="flex justify-between gap-6 md:flex-wrap">
-                <div className="font-light md:w-full md:flex md:gap-7 md:items-center">
+                <div  className="font-light md:w-full md:flex md:gap-7 md:items-center">
                   <Avatar
                     src={require("../../assets/images/home/avatar.png")}
                     size={"large"}
@@ -314,11 +314,11 @@ export default function Home() {
         </div>
         <div className="my-14 pt-14">
           <div className="flex justify-between md:flex-wrap">
-            <h1 className="text-2xl">News</h1>
+            <h1 data-aos='fade-right' className="text-2xl">News</h1>
             <div className="w-3/5 md:w-full md:mt-7">
               <h1 className="text-[#8D8D8D]">CEvents, Blog, News</h1>
               <div className="flex my-6">
-                <p className="w-1/2 md:w-full">
+                <p data-aos='zoom-in' className="w-1/2 md:w-full">
                   Discover the Discover a treasure trove of articles designed to
                   fuel your creativity, enhance your productivity, and keep you
                   connected with the pulse of the co-working world
@@ -329,7 +329,7 @@ export default function Home() {
           <div className="flex gap-10 mt-10 justify-between md:flex-wrap">
             <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
               <div className="relative">
-                <img
+                <img data-aos='fade-up'
                   src={require("../../assets/images/home/card-1.png")}
                   className="w-full"
                 />
@@ -350,7 +350,7 @@ export default function Home() {
             </div>
             <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
               <div className="relative">
-                <img
+                <img data-aos='fade-up'
                   src={require("../../assets/images/home/card-2.png")}
                   className="w-full"
                 />
@@ -361,7 +361,7 @@ export default function Home() {
               <h1 className="my-5">Welcome to Impact Studio</h1>
               <div className="flex items-center gap-2">
                 <p className="text-[#FF5722] flex gap-2 items-center">
-                  <img src={require("../../assets/images/home/vector-2.png")} />
+                  <img  src={require("../../assets/images/home/vector-2.png")} />
                   News
                 </p>
                 <p className="text-[#2D2D2D]">| June 15, 2024 • Read 12 min</p>
@@ -369,7 +369,7 @@ export default function Home() {
             </div>
             <div className="card w-1/3 bg-no-repeat bg-cover relative md:w-full">
               <div className="relative">
-                <img
+                <img data-aos='fade-up'
                   src={require("../../assets/images/home/card-3.png")}
                   className="w-full"
                 />
