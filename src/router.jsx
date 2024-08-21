@@ -4,7 +4,10 @@ import Home from "./pages/home";
 import AboutStudio from "./pages/AboutStudio"; 
 import Gallery from './pages/Gallery/Index'
 import News from "./pages/news/news";
-import About from "./pages/about";
+import About from "./pages/about"; 
+import Meeting from './pages/meetings rooms/meeting';
+import Offece from './pages/offece/offece'
+
 export default function Router() { 
   return ( 
     <Routes> 
