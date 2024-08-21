@@ -5,7 +5,11 @@ import AboutStudio from "./pages/AboutStudio";
 import Gallery from './pages/Gallery/Index'
 import News from "./pages/news/news";
 import About from "./pages/about";
+import "aos/dist/aos.css"
+
 export default function Router() { 
+
+
   return ( 
     <Routes> 
 
