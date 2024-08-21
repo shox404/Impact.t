@@ -30,17 +30,20 @@ export default function Navbar({ color }) {
       <Link to={'/gallery'}>
       <li>GALLERY</li>
         </Link>
-        <Link to={'/about-studio'}>
+        <Link to={'/office'}>
           <li>OFFICE</li>
         </Link>
         <Link to={"/open-space"}>
           <li className="text-nowrap">OPEN SPACE</li>
         </Link>
-        <li className="text-nowrap">MEETING ROOMS</li>
+        <Link to={'/rooms'}>
+          <li className="text-nowrap">MEETING ROOMS</li>
+
+        </Link>
       </ul>
       <Link to={"/"}>
         <img
-          src={color == "black" ? logoBlack : logoWhite}
+            src={color == "black" ? logoBlack : logoWhite}
           className="m-auto md:my-10"
         />
       </Link>
@@ -61,10 +64,12 @@ export default function Navbar({ color }) {
             RU
           </option>
         </select>
-        <li className="text-nowrap">BOOKING SPACE</li>
+        <Link to={'/about-studio'}>
+          <li className="text-nowrap">BOOKING SPACE</li>
+        </Link>
       </ul>
       <button
-        onClick={toggle}
+          onClick={toggle}
         className="hidden fixed top-5 right-5 py-2 px-4 rounded-full md:inline bg-black"
       >
         MENU
