@@ -1,7 +1,7 @@
 import Footer from "./components/footer";
 import Router from "./router";
 import "aos/dist/aos.css";
-import AOS from 'aos';
+import AOS from 'aos'
 import { useEffect } from "react";
 export default function App() {
   useEffect(() => {
