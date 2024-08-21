@@ -5,6 +5,9 @@ import AboutStudio from "./pages/AboutStudio";
 import Gallery from './pages/Gallery/Index'
 import News from "./pages/news/news";
 import About from "./pages/about";
+import Meeting from "./pages/meetings rooms/meeting";
+import Offece from "./pages/offece/offece";
+
 export default function Router() { 
   return ( 
     <Routes> 
@@ -16,6 +19,8 @@ export default function Router() {
       <Route path="/gallery" element={<Gallery/>}/>
       <Route path="/new" element={<News/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/rooms" element={<Meeting/>}/>
+      <Route path="/office" element={<Offece/>}/>
     </Routes>
   ); 
 }
