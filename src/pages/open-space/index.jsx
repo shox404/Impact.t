@@ -87,7 +87,7 @@ function Index(props) {
                             Free water, tea, coffee                        </p>
                     </div>
                     <button
-                        className="   sm:w-[90%] w-[347px] mt-[130px]  ml-3 h-[60px] bg-[#373737] rounded-[90px] text-white text-[19px]  ">
+                        className="   sm:w-[90%] w-[347px] mt-[95px]  ml-3 h-[60px] bg-[#373737] rounded-[90px] text-white  text-[19px]  ">
                         Booking space
                     </button>
                 < /div>

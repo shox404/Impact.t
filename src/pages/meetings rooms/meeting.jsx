@@ -37,13 +37,13 @@ function Meeting(props) {
                 </div>
 
             </div>
-            <div className={"w-full flex-wrap gap-1  h-[150vh] flex "}>
-                <div className="w-[630px] h-[335px] bg-white ml-10 rounded-[20px] ">
+            <div className={"w-full flex-wrap gap-2  h-[150vh] flex sm:h-[460vh] lg:h-[170vh]"}>
+                <div className="w-[630px] h-[335px] bg-white ml-8 rounded-[20px] sm:w-full sm:flex sm:flex-col sm:h-[100vh] sm:ml-0 sm:mb-[-280px] lg:h-[335px] lg:mb-[-280px]">
 
                     <img src={Conference} alt=""/>
 
 
-                    <div className={"ml-[330px] mt-[-310px]  "}>
+                    <div className={"ml-[330px] mt-[-310px]  sm:ml-0 sm:mt-0 sm:pl-4 sm:pt-2"}>
                         <h3>Conference Room “Orange”</h3>
                         <h2 className="text-[30px] text-[#2D2D2D] mt-1 sm:text-[30px]">1 00 000 uzs<span
                             className="text-[#797979] text-[20px] sm:text-[18px]">/Hourse </span></h2>
@@ -86,12 +86,12 @@ function Meeting(props) {
                         </button>
                     </div>
                 </div>
-                <div className="w-[630px] h-[335px] bg-white ml-10 rounded-[20px] ">
+                <div className="w-[630px] h-[335px] bg-white ml-6 rounded-[20px] sm:w-full sm:flex sm:flex-col sm:h-[100vh] sm:ml-0 lg:h-[335px]">
 
                     <img src={Conference2} alt=""/>
 
 
-                    <div className={"ml-[330px] mt-[-310px]  "}>
+                    <div className={"ml-[330px] mt-[-310px] sm:ml-0 sm:mt-0 sm:pl-4 sm:pt-2 "}>
                         <h3>Conference Room “Blue”</h3>
                         <h2 className="text-[30px] text-[#2D2D2D] mt-1 sm:text-[30px]">1 00 000 uzs<span
                             className="text-[#797979] text-[20px] sm:text-[18px]">/Hourse </span></h2>
@@ -133,12 +133,12 @@ function Meeting(props) {
                         </button>
                     </div>
                 </div>
-                <div className="w-[630px] mt-[-280px] h-[335px]  bg-white ml-10 rounded-[20px]  ">
+                <div className="w-[630px] mt-[-240px] h-[335px]  bg-white ml-8 rounded-[20px] sm:w-full sm:flex sm:flex-col sm:h-[100vh] sm:ml-0 lg:h-[335px]">
 
                     <img src={Conference3} alt=""/>
 
 
-                    <div className={"ml-[330px] mt-[-310px]  "}>
+                    <div className={"ml-[330px] mt-[-310px] sm:ml-0 sm:mt-0 sm:pl-4 sm:pt-2  "}>
                         <h3>Conference Room “Blue”</h3>
                         <h2 className="text-[30px] text-[#2D2D2D] mt-1 sm:text-[30px]">1 50 000 uzs<span
                             className="text-[#797979] text-[20px] sm:text-[18px]">/Hourse </span></h2>
@@ -180,12 +180,12 @@ function Meeting(props) {
                         </button>
                     </div>
                 </div>
-                <div className="w-[630px] mt-[-280px] h-[335px] bg-white ml-10 rounded-[20px] ">
+                <div className="w-[630px] mt-[-240px] h-[335px] bg-white ml-6 rounded-[20px] sm:w-full sm:flex sm:flex-col sm:h-[100vh] sm:ml-0 lg:h-[335px]">
 
                     <img src={Conference4} alt=""/>
 
 
-                    <div className={"ml-[330px] mt-[-310px]  "}>
+                    <div className={"ml-[330px] mt-[-310px]  sm:ml-0 sm:mt-0 sm:pl-4 sm:pt-2 "}>
                         <h3>Conference Room “Blue”</h3>
                         <h2 className="text-[30px] text-[#2D2D2D] mt-1 sm:text-[30px]">1 80 000 uzs<span
                             className="text-[#797979] text-[20px] sm:text-[18px]">/Hourse </span></h2>
@@ -253,8 +253,8 @@ function Meeting(props) {
                 </div>
 
             </div>
-<br/>
-<br/>
+            <br/>
+            <br/>
         </div>
     );
 }

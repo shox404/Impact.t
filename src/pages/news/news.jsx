@@ -10,9 +10,9 @@ function News(props) {
 
 
             <div
-                className="w-full h-screen bg-black   sm:justify-center sm:items-center sm:h-[80%] sm:text-center  bg-cover bg-center"
+                className="w-full h-screen bg-black   sm:justify-center sm:items-center sm:h-[80%] sm:text-center  bg-cover bg-center "
                 style={{backgroundImage: `url(${Bg1})`}}>
-                <h2 className=" sm:text-[30px]  sm:pt-[180px]  sm:w-[270px]  sm:leading-[40px] text-white text-[100px] w-[935px] pt-[320px] ml-14 leading-[100px]">
+                <h2 className=" sm:text-[40px]  sm:pt-[180px]  sm:w-[90%]  sm:leading-[40px] text-white text-[100px] w-[935px] pt-[320px] ml-14 leading-[100px] lg:w-full lg:ml-0 sm:ml-4">
                     Welcome to
                     Impact.t Studio
                 </h2>
@@ -73,7 +73,7 @@ function News(props) {
 
                 </div>
             </div>
-            <div className={"w-full gap-2 h-[100px] flex pl-[60px] sm:  pl-0 justify-between lg: justify-around"}>
+            <div className={"w-full gap-2 h-[100px] flex pl-[60px] sm:  pl-0 justify-between lg:justify-around sm:pl-0"}>
                 <button className={"w-[120px] rounded-[30px] h-[50px] bg-[#FF5722] text-white"}>
                     All
                 </button>
@@ -90,7 +90,7 @@ function News(props) {
             <div>
 
 
-                <div className=" mb-[10%] flex gap-10 mt-10 justify-between sm: flex-wrap justify-center items-center ">
+                <div className=" pb-20 flex gap-10 mt-10 justify-between sm: flex-wrap justify-center items-center lg:mb-5 lg:py-4 lg:h-auto sm:pb-10">
                     <div
                         className="card w-1/3 bg-no-repeat bg-cover relative sm:w-[90%] mx-auto lg:h-[400px] w-[400px] ">
                         <div className="relative">
@@ -199,7 +199,7 @@ function News(props) {
                         </div>
                     </div>
                     <div
-                        className="card w-1/3 bg-no-repeat bg-cover relative sm:w-[90%] mx-auto lg:h-[400px] w-[400px]">
+                        className="card w-1/3 bg-no-repeat bg-cover relative sm:w-[90%] mx-auto lg:h-[440px] w-[400px]">
                         <div className="relative">
                             <img
                                 src={require("../../assets/images/IMG_4977.png")}
