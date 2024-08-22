@@ -10,4 +10,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: 'Helvetica Neue', sans-serif;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }

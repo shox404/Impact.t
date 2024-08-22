@@ -3,6 +3,8 @@ import Router from "./router";
 import "aos/dist/aos.css";
 import AOS from 'aos'
 import { useEffect } from "react";
+import "./global.scss"
+import "./app.css"
 export default function App() {
   useEffect(() => {
     AOS.init({
