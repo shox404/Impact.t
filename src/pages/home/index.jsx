@@ -17,7 +17,7 @@ export default function Home() {
     });
   }, []);
   return (
-    <div>
+    <div style={{ overflowX:'hidden'}}>
       <Navbar color={"white"} />
       <div className="bg-[#1C1C1C]">
         <h1 data-aos='fade-down' className="bg-gradient-to-r from-[#F9F9F9] to-[#939393] bg-clip-text text-transparent text-center w-3/4 text-8xl m-auto py-44 px-20 md:text-5xl md:w-full md:px-10">
