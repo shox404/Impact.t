@@ -17,7 +17,7 @@ export default function Home() {
     });
   }, []);
   return (
-    <div style={{ overflowX:'hidden'}}>
+    <div >
       <Navbar color={"white"} />
       <div className="bg-[#1C1C1C]">
         <h1 data-aos='fade-down' className="bg-gradient-to-r from-[#F9F9F9] to-[#939393] bg-clip-text text-transparent text-center w-3/4 text-8xl m-auto py-44 px-20 md:text-5xl md:w-full md:px-10">
@@ -71,7 +71,7 @@ export default function Home() {
       </div>
       <div className="rounded-t-3xl p-14 bg-[#2D2D2D] flex justify-between gap-14 text-[#EBEBEB] md:flex-wrap md:p-5">
         <div className="card w-1/2 md:w-full">
-          <img  data-aos='zoom-out'
+          <img  data-aos='zoom-in'
             src={require("../../assets/images/home/img-3.png")}
             className="rounded-2xl object-cover h-[420px] md:h-[200px]"
           />
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </div>
         <div className="card w-1/2 md:w-full">
-          <img data-aos='zoom-out'
+          <img data-aos='zoom-in'
             src={require("../../assets/images/home/img-4.png")}
             className="rounded-2xl object-cover h-[420px] md:h-[200px]"
           />
@@ -200,10 +200,10 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-3 text-[#EBEBEB]">
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Flexible Schedule and Conditions
               </div>
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#FF5722] flex md:flex-wrap gap-8">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#FF5722] flex md:flex-wrap gap-8">
                 <div  className="flex flex-col gap-6">
                   <h1>Extensive Networking</h1>
                   <p>
@@ -214,16 +214,16 @@ export default function Home() {
                 </div>
                 <img src={require("../../assets/images/home/img-8.png")} />
               </div>
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Conveniences and Comfort
               </div>
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Interesting Events
               </div>
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Continuous Support
               </div>
-              <div data-aos='fade-left' className="p-10 rounded-2xl bg-[#2D2D2D]">
+              <div data-aos='fade-right' className="p-10 rounded-2xl bg-[#2D2D2D]">
                 Unique Atmosphere
               </div>
             </div>
@@ -275,7 +275,7 @@ export default function Home() {
               <img src={require("../../assets/images/home/bank.png")} />
             </div>
           </div>
-          <div data-aos='fade-left' className="flex justify-end my-8">
+          <div data-aos='fade-right' className="flex justify-end my-8">
             <button className="bg-transparent border px-7 py-3 rounded-full">
               SHOW ALL
             </button>
@@ -286,7 +286,7 @@ export default function Home() {
         <div className="flex justify-between my-14 md:flex-wrap">
           <h1 className="text-2xl" data-aos='fade-right'>Reviews</h1>
           <div className="w-3/5 flex flex-col gap-3 text-[#EBEBEB] md:w-full md:mt-8">
-            <div data-aos='fade-left' className="p-10 rounded-2xl bg-white text-black md:p-5">
+            <div data-aos='fade-right' className="p-10 rounded-2xl bg-white text-black md:p-5">
               <div className="flex justify-between gap-6 md:flex-wrap">
                 <div  className="font-light md:w-full md:flex md:gap-7 md:items-center">
                   <Avatar
