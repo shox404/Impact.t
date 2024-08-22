@@ -7,8 +7,15 @@ import {
 } from "@ant-design/icons";
 import "./styles.scss";
 import { Avatar } from "antd";
-
+import "aos/dist/aos.css";
+import AOS from 'aos'
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+    });
+  }, []);
   return (
     <div>
       <Navbar color={"white"} />
