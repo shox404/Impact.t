@@ -23,7 +23,7 @@ function Offece(props) {
                     backgroundPosition: 'center',
                 }}
             >
-                <h2 className="lg:text-[70px] lg:w-[80%] sm:text-[30px] sm:pt-[180px] sm:w-[270px] sm:leading-[40px] text-white text-[100px] w-[955px] pt-[320px] ml-14 leading-[100px]">
+                <h2 data-aos='fade-left' data-aos-duration='1000' className="lg:text-[70px] lg:w-[80%] sm:text-[30px] sm:pt-[180px] sm:w-[270px] sm:leading-[40px] text-white text-[100px] w-[955px] pt-[320px] ml-14 leading-[100px]">
                     Discover Our Exceptional Offices
                 </h2>
                 <button
@@ -34,11 +34,11 @@ function Offece(props) {
             </div>
             <div className="flex w-full h-auto pb-20 gap-80 pt-32 bg-[#EBEBEB] sm:flex-col lg:flex-col">
                 <div className="ml-32 sm:ml-[30px]">
-                    <h3 className="text-[32px] text-[#2D2D2D] lg:ml-[85px] md:ml-[10px] md:mb-[280px]">Tariff plan</h3>
+                    <h3 data-aos='fade-right' className="text-[32px] text-[#2D2D2D] lg:ml-[85px] md:ml-[10px] md:mb-[280px]">Tariff plan</h3>
                 </div>
                 <div className="sm:mt-[-280px] sm:ml-[150px] lg:ml-[210px]">
-                    <h2 className="text-[#8D8D8D] text-[32px] lg:mt-[-280px] ml-[-105px]">5+ Meeting rooms</h2>
-                    <p className="text-[20px] sm:w-[80%] text-[#2D2D2D] w-[390px] mt-8 ml-[-105px]">
+                    <h2 data-aos='fade-up' className="text-[#8D8D8D] text-[32px] lg:mt-[-280px] ml-[-105px]">5+ Meeting rooms</h2>
+                    <p data-aos='fade-up' className="text-[20px] sm:w-[80%] text-[#2D2D2D] w-[390px] mt-8 ml-[-105px]">
                         Our meeting rooms blend functionality with sophistication, providing the perfect setting for
                         your professional endeavors.
                     </p>
@@ -46,7 +46,7 @@ function Offece(props) {
             </div>
 
             <div className={"w-full flex-wrap gap-1  h-[270vh]  sm:h-auto lg:h-[160vh]"}>
-                <div className="w-[843px] h-[447px] bg-white ml-[490px] rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[860px] sm:flex-col sm:gap-2 lg:w-full">
+                <div data-aos='fade-up' className="w-[843px] h-[447px] bg-white ml-[490px] rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[860px] sm:flex-col sm:gap-2 lg:w-full">
 
                     <img src={Conference} alt=""/>
 
@@ -100,7 +100,7 @@ function Offece(props) {
                         </button>
                     </div>
                 </div>
-                <div className="w-[843px] h-[447px] bg-white ml-[490px] mt-10 rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[860px] sm:flex-col sm:gap-2 lg:w-full">
+                <div data-aos='fade-up' className="w-[843px] h-[447px] bg-white ml-[490px] mt-10 rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[860px] sm:flex-col sm:gap-2 lg:w-full">
 
                     <img src={Conference1} alt=""/>
 
@@ -154,7 +154,7 @@ function Offece(props) {
                         </button>
                     </div>
                 </div>
-                <div className="w-[843px] h-[447px]  bg-white ml-[490px] mt-10 rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[1120px] sm:flex-col sm:gap-2 lg:w-full">
+                <div data-aos='fade-up' className="w-[843px] h-[447px]  bg-white ml-[490px] mt-10 rounded-[20px] lg:ml-0 sm:w-full sm:ml-0 sm:flex sm:h-[1120px] sm:flex-col sm:gap-2 lg:w-full">
 
                     <img src={Conference2} alt=""/>
 
@@ -209,12 +209,10 @@ function Offece(props) {
                         </button>
                     </div>
                 </div>
-
-
             </div>
-            <div className={"w-full h-screen flex justify-center items-center relative mt-[-250px] bg-[#EBEBEB]"}
+            <div  className={"w-full h-screen flex justify-center items-center relative mt-[-250px] bg-[#EBEBEB]"}
                  style={{backgroundImage: ` url(${Grn})`}}>
-                <img className={"w-[90%] absolute z-10 sm:w-full sm:h-[600px] lg:h-[600px]"} src={Grn} alt=""/>
+                <img data-aos='fade-up' className={"w-[90%] absolute z-10 sm:w-full sm:h-[600px] lg:h-[600px]"} src={Grn} alt=""/>
                 <div className="absolute z-20 ml-[-600px] sm:ml-0 lg:ml-[-40px]">
                     <button
                         className={"w-[180px] mb-72  ml-10  text-[15px] h-[50px] sm:ml-5 sm:mb-10 lg:ml-[-40px] bg-white rounded-[90px] text-[#2D2D2D]"}>GALLERY
